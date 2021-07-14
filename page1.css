@@ -1,0 +1,71 @@
+*
+{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+#left {
+    width: 10%;
+    border:1px solid;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+#right {
+    width: 30%;
+    border:1px solid red;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+}
+#mid {
+    width: 59%;
+    border:1px solid green;
+    height: 100%;
+    float: left;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#blackoutline{
+    width: 100%;
+    height: 95%;
+    background-color: blue;
+   margin-top: 15%;
+   border-radius: 10px;
+   color: white;
+}
+#scrollable{
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    overflow: scroll;
+
+}
+#profile{
+    border: 1px solid gray;
+    height: 90px;
+    width: 80%;
+    margin: 50px;
+}
+#suggestions{
+ border: 1px solid green;
+ height: 250px;
+ width: 80%;
+ margin: 50px;
+}
+#graph{
+    border: 1px solid blue;
+ height: 230px;
+ width: 80%;
+ margin: 50px;
+}
+section{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    -webkit-text-stroke: 4px #000;
+    color: transparent;
+}
